@@ -54,6 +54,12 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+# Idk why this thing ever shows up
+.DS_Store
+
 # dotenv environment variables file
 .env
 
+# client files
+client/build/bundle.js
+client/build/bundle.js.map

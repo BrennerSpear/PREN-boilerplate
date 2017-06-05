@@ -1,0 +1,57 @@
+{
+  "name": "pren-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate code for Postgres, React, Express, Node",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --ignore client/ --ignore tests/ server.js",
+    "watch":"webpack --watch",
+    "test": "mocha tests/server-spec.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrennerSpear/PREN-boilerplate.git"
+  },
+  "keywords": [
+    "React",
+    "Express",
+    "Node",
+    "Postgres"
+  ],
+  "author": "@BrennerSpear",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrennerSpear/PREN-boilerplate/issues"
+  },
+  "homepage": "https://github.com/BrennerSpear/PREN-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "bookshelf": "^0.10.3",
+    "bookshelf-modelbase": "^2.10.3",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1",
+    "knex": "^0.12.6",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
+    "pg": "^6.1.2"
+  },
+  "devDependencies": {
+    "axios": "^0.16.1",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.4.1",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.4.2",
+    "react-fontawesome": "^1.6.1",
+    "webpack": "^1.14.0"
+  }
+}
