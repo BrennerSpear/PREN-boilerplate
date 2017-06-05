@@ -8,7 +8,7 @@ From the terminal while in the project folder use these commands to add the post
 ```
 psql
 create database pren_boilerplate_dev;
-create database pren_boilerplate_dev;
+create database pren_boilerplate_test;
 \q
 touch .env
 open .env
@@ -17,7 +17,7 @@ open .env
 Your .env file should look like this with ```USERNAME``` replaced with the name that appears before the ```=#``` when you do ```psql```
 ```
 DATABASE_URL=postgres://USERNAME:@localhost:5432/pren_boilerplate_dev
-TEST_DATABASE_URL=postgres://USERNAME:@localhost:5432/pren_boilerplate_dev
+TEST_DATABASE_URL=postgres://USERNAME:@localhost:5432/pren_boilerplate_test
 ```
 
 save and close the .env file
